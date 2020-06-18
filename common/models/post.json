@@ -36,9 +36,14 @@
       "model": "Category",
       "foreignKey": "categoryId"
     },
-    "PostImage":{
+    "PostImage": {
+      "type": "hasMany",
+      "model": "PostImage",
+      "foreignKey": ""
+    },
+    "Comment":{
       "type":"hasMany",
-      "model":"PostImage",
+      "model":"Comment",
       "foreignKey":""
     }
   },

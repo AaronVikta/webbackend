@@ -15,15 +15,15 @@
   },
   "validations": [],
   "relations": {
-    "Post":{
-      "type":"belongsTo",
-      "model":"Post",
-      "foreignKey":"postId"
+    "Post": {
+      "type": "belongsTo",
+      "model": "Post",
+      "foreignKey": "postId"
     },
-    "user":{
-      "type":"belongsTo",
-      "model":"user",
-      "foreignKey":"userId"
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": "userId"
     }
   },
   "acls": [
